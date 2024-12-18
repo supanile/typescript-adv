@@ -1,0 +1,11 @@
+"use strict";
+const points = [10, 20];
+const OKStatus = [200, "OK"];
+const notFound = [404, "Not Found"];
+const badRequest = [400, "Bad Request"];
+const serverErr = [500, "Internal Server Error"];
+console.log(points);
+console.log(OKStatus);
+console.log(notFound);
+console.log(badRequest);
+console.log(serverErr);
